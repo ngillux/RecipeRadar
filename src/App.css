@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: tomato;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 40px 40px;
+  border: 1px solid tomato;
+  border-radius: 10px;
+  min-height: 100px;
+}
+
+#recipe-select {
+  max-width: min-content;
+  padding: 10px;
+  border: 1px solid tomato;
+  border-radius: 10px;
+  color: tomato;
+}
+
+#recipe-input {
+  background-color: tomato;
+  color: white;
+  border: 1px solid tomato;
+  border-radius: 10px;
+  padding: 10px;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+}
+
+.app-container * {
+  margin: 10px;
+}
+
+#app-logo {
+  align-self: flex-start;
+}
+
+#app-button {
+  background-color: tomato;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 20px;
+}
+
+#new-recipe {
+  background-color: tomato;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 20px;
+}
+
+#app-logo {
+  background-color: green;
+}
